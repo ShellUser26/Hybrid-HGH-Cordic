@@ -146,8 +146,6 @@ python Validation/semeval_base_all3_hgh.py
 python Validation/swag_eval_hgh.py
 ```
 
-If `transformers` cannot resolve a local path, use an absolute `MODEL_PATH` and
-pass `local_files_only=True` to every `from_pretrained` call.
 
 ---
 
