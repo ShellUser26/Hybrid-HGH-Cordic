@@ -18,7 +18,7 @@ HGH-CORDIC, while staying hardware-friendly for FPGA and ASIC.
 
 ```
 .
-├── Validation/                  # BERT inference validation suite (see below)
+├── Validation/                  # BERT inference validation suite
 ├── fig7_hybrid.py               # convergence study: radix-2/4/8 vs hybrid (8-4-2)
 ├── hghr24.v                     # DESIGN FILE — rotation mode, 2^Q
 ├── hghv24.v                     # DESIGN FILE — vectoring mode, log2(Q)
